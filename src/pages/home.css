@@ -1,0 +1,168 @@
+.churchmission{
+    top:-130px;
+    position:relative;
+}
+.feature-column{
+    background-color: #ff5e14;
+    color: white;
+    padding:30px 0px 20px 0px;
+    
+}
+.feature-column:hover{
+    background-color: rgb(37, 37, 37);
+}
+.feature-column:hover  .link-goal-span {
+    color:white;
+}
+.single-feature-content a .link-goal-span {
+    color:rgb(37, 37, 37);
+}
+.single-feature-content a .link-goal-span:hover{
+    color:#ff5e14;
+}
+.single-feature-content{
+    padding: 15% 0px 15% 0px;
+    line-height: 30px;
+}
+.single-feature-content .link-goal a{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-bottom: 17px;
+    font-family: 'Playfair Display', serif;
+}
+.single-feature-content .link-goal a:hover{
+    text-decoration: none;
+    color: #ff5e14;
+}
+
+.homeheader{
+    position: relative;
+    display: block;
+    font-size: 62px;
+    line-height: 52px;
+    font-family: 'Playfair Display', serif;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 35px;
+    
+}
+.homeheader1{
+    padding-top: 50px;
+}
+.homeheader-span{
+    color: #ff5e14;
+}
+.homePageabout p{
+    color: rgb(77, 73, 73);
+    line-height: 30px;    
+}
+/* css for upcoming event starts here */
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.img-square-wrapper{
+    background-color:#ff5e14 ;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px 15px 20px 15px;
+}
+.upcoming-event .card{
+    margin-bottom: 30px;
+}
+.event-topic{
+    padding-bottom: 10px;
+}
+.event-topic a{
+    color: #222222;
+    font-family:'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.event-topic a:hover{
+    color:#ff5e14;
+    text-decoration: none;
+}
+.event-topic span{
+    font-style: italic;
+}
+.react-icons{
+    color:#ff5e14;
+    padding-right: 2px;
+}
+.icon-span{
+    padding-right: 5px;
+}
+.phone{
+    padding-left: 20px;
+}
+.event-card-text{
+    color: rgb(109, 104, 104);
+    line-height: 30px;
+}
+.homedonation{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)), url('https://cdn.pixabay.com/photo/2018/01/23/03/39/conclusion-of-the-contract-3100563__340.jpg');
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* padding: 103px 0px 111px 0px; */
+}
+.homedonation .text{
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 32px;
+    font-family: 'Work Sans', sans-serif;
+}
+.whotohelp{
+    background:  #e8e9e9;
+}
+.whotohelprow{
+    padding-bottom: 30px;
+}
+.imgsection{
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    transform: scale(1.0);
+    transition: all 500ms ease;
+   
+}
+.single-help-content .img-box{
+   position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 250px;
+    max-height: 250px;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    transition: all 500ms ease;
+} 
+.single-help-content .img-box:hover{
+    border:10px solid #ff5e14;
+} 
+.single-help-content:hover .imgsection{
+	transform:scale(1.2);
+    transition:1s;
+}
+
+.lower-content h4 .whotohelplink{
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+    transition: all 500ms ease;    
+    font-family: 'Work Sans', sans-serif;
+}
+.lower-content h4 .whotohelplink:hover{
+    color:#ff5e14;
+    text-decoration: none;
+}

@@ -1,0 +1,508 @@
+body{
+  margin:0;
+  padding:0;
+  
+}
+.footer-social li {
+  position: relative;
+  display: inline-block;
+}
+.footer-social ul li{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footer-social-link{
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background: #2e3138;
+  color: #9ea0a9;
+  text-align: center;
+  border-radius: 50%;
+  margin: 4px;
+  text-decoration: none;
+}
+.footer-social-link:hover{
+  background: #ff5e14;
+  color: rgb(236, 234, 234);
+}
+ .footer-title {
+  position: relative;
+  font-size: 24px;
+  line-height: 35px;
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.footer-row{
+  padding-top: 30px;
+}
+.footer-widget{
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(172, 172, 172);
+  /* color:rgb(27, 27, 27); */
+}
+.list{
+  line-height: 35px;
+}
+.footer-content .service-widget .list li{
+  display: block;
+}
+.service-widget ul, li{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footer-bottom{
+  background-color: rgb(37, 37, 37);
+  color: rgb(136, 129, 129);
+  padding: 23px 0px 20px 0px;
+}
+.button-primary{
+  border: 2px solid #ff5e14;
+  padding: 13px 40px 11px 40px;
+  border-radius: 30px;
+  color: rgb(77, 73, 73);
+  font-size: 20px;
+}
+.button-primary:hover{
+  text-decoration: none;
+  background: #ff5e14;
+  color:rgb(77, 73, 73);
+}
+.button-primary1{
+  background: #ff5e14;
+  color: white;
+  /* border-radius: 1px solid #ff5e14; */
+}
+.button-primary1:hover{
+  background: rgb(46, 46, 46);
+  border: none;
+  color: white;
+  border: 2px  solid #ff5e14;
+}
+.blogcard-img-top{
+  padding: 20px 20px 12px 20px;
+}
+.blogcardtitle{
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #222222;
+  transition: all 500ms ease;
+  font-size: 1.7rem;
+}
+.blogcard .card-text{
+  line-height: 26px;
+  margin-bottom: 5px;
+  color: rgb(97, 93, 93);
+}
+/* css class for testimony */
+.testimonial-column{
+  background:linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)),  url('https://cdn.pixabay.com/photo/2016/01/19/17/21/boys-1149665__340.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; 
+  /* top: 70px; */
+  /* margin-top: 40px; */
+}
+
+.testimony .top-content {
+  position: relative;
+  padding: 91px 0px 138px 100px;
+  margin-bottom: 49px;
+}
+
+.sec-title {
+  position: relative;
+  display: block;
+  font-size: 48px;
+  line-height: 52px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+.testimony-slide{
+  top:-130px;
+  left: 700px;
+  position: relative;
+  background:white;
+  padding-bottom: 40px;
+  overflow:hidden;
+  width: 35%;
+  box-shadow: 4px 4px 4px 4px #aaa;
+}
+.slidecontainer{
+  overflow: hidden;
+}
+.sliding-testimony{
+  padding: 20px 0px 50px 0px;
+}
+.sliding-testimony .text{
+  line-height: 30px;
+  font-size: 17px;
+  color: #222222;
+  margin-bottom: 38px;
+  font-family: 'Work Sans', sans-serif;
+}
+.testimonial-content  .author-info {
+  position: relative;
+  padding: 11px 0px 0px 91px;
+} 
+
+.author-thumb{
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+}
+.author-info h5{
+  color:#ff5e14;
+  font-family: 'Work Sans', sans-serif;
+}
+.banner-bg{
+  width:100%;height: 400px;
+  margin: 0px auto;
+  background:linear-gradient(180deg, rgba(27, 27, 27, 0.443), rgba(31, 30, 30, 0.443)),   url('https://cdn.pixabay.com/photo/2011/12/13/14/28/earth-11008__340.jpg');
+  background-position: 120% 0px;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  animation: bg-animation linear 50s infinite;
+}
+@keyframes bg-animation{
+  from{
+    background-position: 120% 0px;
+
+  }
+  to{
+    background-position: 20% 0px;
+  }
+}
+/* css for pastors gallery */
+.pastorgallery{
+  background: url('https://colorlib.com/preview/theme/spring/images/bg_2.jpg');
+  /* position: relative; */
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.bannertext{
+  position: relative;
+  display: block;
+  font-size: 62px;
+  line-height: 52px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: 700;
+  top:50%;
+}
+.portfolio-section .single-portfolio-content {
+  position: relative;
+  margin-bottom: 30px;
+}
+.gallery-portfolio{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.gallery-portfolio img {
+  /* width: 100%; */
+  transform: scale(1.0);
+  transition: all 5s ease;
+}
+.pastors .text {
+  color: #222222;
+  font-size: 25px;
+  font-weight: bold;
+}
+.gallery-img-box img:hover{
+  transform:scale(1.1);
+  transition:1s;
+}
+.gallery-img-box{
+  position: relative;
+  overflow:hidden;
+  border-radius: 50%;
+}
+.gallery-img-box .pic{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+
+/* css for contact */
+.contact-section .contact-title {
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #222222;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+.contact-section .contact-text{
+  font-size: 18px;
+  color: #ff5e14;
+  font-family:'Work Sans', sans-serif;
+  padding-bottom: 30px;
+}
+.contact-section .contact-span{
+  color: #757575;
+  font-weight: bold;
+  padding-left: 10px;
+}
+/* .contact-section .contact-info .left-column {
+  padding: 70px 60px 70px 60px;
+}
+.contact-icons{
+  color:#ff5e14;
+  font-size: 30px;
+}
+.icon-box{
+  padding-bottom: 26px;
+} */
+/* .contact-section .contact-info .contactaddress {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  transition: all 500ms ease;
+}
+.contact-section .contact-info .right-column {
+  position: relative;
+  padding: 35px 10px 45px 60px;
+  margin-bottom: 27px;
+}
+.contact-section .contact-info .contactaddress:hover {
+  border: 1px solid #ff5e14;
+} */
+.contact-section .contact-form-area .form-group label {
+  position: relative;
+  display: block;
+  color: #222222;
+  margin-bottom: 3px;
+}
+.inputfield{
+  position: relative;
+  width: 100%;
+  height: 44px;
+  padding: 10px 20px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 12px;
+  transition: all 500ms ease;
+}
+.inputfield:focus{
+  border: 1px solid #ff5e14;
+}
+.audioMp3{
+  background: url('https://cdn.pixabay.com/photo/2015/03/26/09/58/headphones-690685__340.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.aboutpage{
+  background: url('https://colorlib.com/preview/theme/spring/images/bg_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:100%;
+}
+.donation-section{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)),url('https://colorlib.com/etc/charity/img/header-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:100%;
+}
+.page-header{
+  font-family: 'Playfair',serif;
+  font-size: 50px;
+}
+.sermon-topic{
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+}
+.sermon-topic:hover{
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+.audiosermon span{
+  display: block;
+  padding-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(110, 110, 110);
+}
+
+.audiosermon .spanlink{
+  color:#db5213;
+}
+.audiosermon .spanlink{
+  text-decoration: none;
+}
+.slick-dots{
+  /* position: relative; */
+  top: 95%;
+}
+/* code for aboutpage  */
+ .about-us-title{
+   font-size: 30px;
+   text-align:center;
+   padding-bottom: 25px;
+ }
+.aboutpagecontent .ul .li{
+    list-style: circle;
+    
+}
+/* code for donation-section */
+.donation-section1 .account-title{
+  display: block;
+  color:#ff5e14;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 0px 20px 0px;
+}
+.donation-section1 .account-title .account-details{
+  color: #222222;
+  padding-left: 10px;
+}
+input[type="text"]{
+  width: 100%;
+}
+/* css for form */
+.msg{
+  text-align: center;
+  font-size: 16px;
+  padding: 3px;
+  color: rgb(5, 110,5);
+  display: none;
+}
+.label{
+  display:block ;
+}
+label{
+  color:#ff5e14;
+  text-transform: uppercase;
+}
+.textarea{
+  width: 100%;
+  border:1px solid rgb(211, 211, 211);
+}
+.textarea:focus{
+  width: 100%;
+  border:1px solid #ff5e14;
+}
+.msgAppear{
+  display: block;
+}
+/* .cours2{
+	margin-top:30px;
+}
+
+.cours2{
+	position:relative;
+	margin-bottom:50px;
+	
+}
+
+
+.cours3{
+	-border:1px solid red;
+	position:absolute;
+	top:-100px;
+	opacity:0;
+	-bottom:100px;
+	-background-color:rgba(142,198,63,.8);
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+	padding:10p;
+}
+.cours2:hover .cours3 {
+	opacity:1;
+	top:0px;
+	transition:1s;
+}
+
+.cours4{
+	position:absolute;
+	border:1px solid red;
+	margin-top:-80px;
+	padding-top:20px;
+	width:100%;
+	height:80px;
+	opacity:0;
+	bottom:-50px;
+	background-color:rgba(142,198,63,.8);
+	background-color:rgba(0,0,0,0.3);
+}
+.cours2:hover .cours4{
+	opacity:1;
+	bottom:0;
+	transition:1s;
+}
+.cours2:hover .hover{
+	transform:scale(1.1);
+	transition:1s;
+}
+
+.cou:hover{
+	background-color:transparent !important;
+	color:rgb(237,78,110) !important;
+	border:1px solid rgb(237,78,110) !important;
+} */
+
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+/* 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
