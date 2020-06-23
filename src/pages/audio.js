@@ -45,7 +45,7 @@ export class Audio extends Component {
                         </div>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                             <div className="playaudio" style={{top:'-200px', position:'relative'}}>
-                            <ReactPlayer controls width='480px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                            <ReactPlayer controls width='480px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export class Audio extends Component {
                                         <span><Link to ='#sermon'className="spanlink">On Sunday 13 Jan, 2019</Link></span>
                                     </p>
                                     <div className="playaudio" style={{position:'absolute', top:'240px', left:'30px'}}>
-                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                                     </div></div>
                                 </div>
 
@@ -88,7 +88,7 @@ export class Audio extends Component {
                                         <span><Link to ='#sermon'className="spanlink">On Sunday 13 Jan, 2019</Link></span>
                                     </p>
                                     <div className="playaudio" style={{position:'absolute', top:'240px', left:'30px'}}>
-                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                                     </div></div>
                                 </div>
                                 
@@ -102,7 +102,7 @@ export class Audio extends Component {
                                         <span><Link to ='#sermon'className="spanlink">On Sunday 13 Jan, 2019</Link></span>
                                     </p>
                                     <div className="playaudio" style={{position:'absolute', top:'240px', left:'30px'}}>
-                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                                     </div></div>
                                 </div>
 
@@ -116,7 +116,7 @@ export class Audio extends Component {
                                         <span><Link to ='#sermon'className="spanlink">On Sunday 13 Jan, 2019</Link></span>
                                     </p>
                                     <div className="playaudio" style={{position:'absolute', top:'240px', left:'30px'}}>
-                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                                     </div></div>
                                 </div>
 
@@ -130,7 +130,7 @@ export class Audio extends Component {
                                         <span><Link to ='#sermon'className="spanlink">On Sunday 13 Jan, 2019</Link></span>
                                     </p>
                                     <div className="playaudio" style={{position:'absolute', top:'240px', left:'30px'}}>
-                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                                     </div></div>
                                 </div>
 
@@ -144,7 +144,7 @@ export class Audio extends Component {
                                         <span><Link to ='#sermon'className="spanlink">On Sunday 13 Jan, 2019</Link></span>
                                     </p>
                                     <div className="playaudio" style={{position:'absolute', top:'240px', left:'30px'}}>
-                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1591202403/audio/audio1.mp3_m1yq3k.mp3'/>
+                                        <ReactPlayer controls width='320px' height='280px' url='https://res.cloudinary.com/aitechma/video/upload/v1592845463/churchweb/audio/audio1_xkngzc.3gp'/>
                                     </div></div>
                                 </div>
                             </div>

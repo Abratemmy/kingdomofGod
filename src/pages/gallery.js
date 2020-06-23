@@ -23,7 +23,7 @@ export class Pastorgallery extends Component {
                         <div className="col-lg-3"></div>
                     </div>
                     <hr />
-                    <div className="page-header" ><span className="homeheader-span">Other annointed </span>ministers of God</div>
+                    <div className="page-header" ><span className="homeheader-span">Other annointed </span>men of God</div>
                     <div className="row">
                         <div className="col-lg-3"></div>
                         <div className="col-lg-6 col-md-6 col-sm-12 text-center">
@@ -50,6 +50,16 @@ export class Pastorgallery extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all ikorodu-zone">
                             <div className="gallery-portfolio">
                                 <figure className="gallery-img-box">
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1592842262/churchweb/okeke_jfyyzu.jpg"width="100%" alt="pastor" className="pic" />
+                    
+                                </figure> 
+                                <div className="text">Evang. Okeke</div>                            
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all ikorodu-zone">
+                            <div className="gallery-portfolio">
+                                <figure className="gallery-img-box">
                                     <img src="https://res.cloudinary.com/aitechma/image/upload/v1591033497/churchweb/Pst._chinonso_xses6s.jpg"width="100%" alt="pastor"className="pic" />
                                     
                                 </figure>
@@ -69,9 +79,18 @@ export class Pastorgallery extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all ikorodu-zone">
                             <div className="gallery-portfolio">
                                 <figure className="gallery-img-box">
-                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1591033476/churchweb/pastor5_ci0iig.jpg"width="100%" alt="pastor" className="pic"/>
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1592842263/churchweb/patience_ezzlpc.jpg"width="100%" alt="pastor" className="pic"/>
                                 </figure>    
-                                <div className="text">Pastor</div>                            
+                                <div className="text">Pst. Patience Idundun</div>                            
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all ikorodu-zone">
+                            <div className="gallery-portfolio">
+                                <figure className="gallery-img-box">
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1592842263/churchweb/john_mftzyi.jpg"width="100%" alt="pastor" className="pic"/>
+                                </figure>    
+                                <div className="text">Pst. John Ohiku</div>                            
                             </div>
                         </div>
 
@@ -80,7 +99,7 @@ export class Pastorgallery extends Component {
                                 <figure className="gallery-img-box">
                                     <img src="https://res.cloudinary.com/aitechma/image/upload/v1591487328/churchweb/pastor_ioldfu.jpg"width="100%" alt="pastor" className="pic"/>
                                     
-                                </figure>  <div className="text">Pastor</div>                               
+                                </figure>  <div className="text">Evang. Samuel</div>                               
                             </div>
                         </div>
 

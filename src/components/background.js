@@ -3,6 +3,7 @@ import './background.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import WOW from 'wowjs';
 // import { Spring } from 'react-spring';
 
 const photos=[
@@ -27,7 +28,12 @@ const photos=[
 ]
 
 
-export class Background extends Component {
+class Background extends React.Component {
+   componentDidMount(){
+        const wow = new 
+        WOW.WOW();
+        wow.init();
+   }
     render() { const settings = {
         dots: false,
         fade: true,
@@ -47,7 +53,12 @@ export class Background extends Component {
                     return<div className="sliding-image " key={photos.id}> 
                         <img src={photos.url} width="100%" height="650" alt="error" className="bgimage"/>
                         <div className="c1style container" style={{position: 'absolute', top:'30%', paddingLeft:'8%'}}>
-                            <div className="homeheader  backgroundtitle" style={{ color:'#222222', width:'100%'}}>Kingdom of <span style={{color:'#ff5e14',fontSize:'70px'}}>Christ Church </span></div>
+                            <div className="homeheader " style={{ color:'#222222', width:'100%'}}><span className=" backgroundtitle"> Kingdom of <span style={{color:'#ff5e14',fontSize:'70px'}}>Christ Church </span></span>
+                                <br />
+                            </div>
+
+                            <div className="wow flipInY" data-wow-duration="2s" data-wow-iteration="infinite">Eglise Du Royaume Du Christ</div>
+                    
                             <div className="content">
                                 <div className="slider-wrapper">
                                     
@@ -58,6 +69,8 @@ export class Background extends Component {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="WOW slideInLeft">Hello </div>
                             
                         </div>
                     </div>                         

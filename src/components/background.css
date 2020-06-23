@@ -3,7 +3,7 @@
     position: relative;
 }
 .backgroundtitle{
-    color: red;
+    columns: #222222;
     animation: textanimation 1s ease-in-out;
 }
 @keyframes textanimation {

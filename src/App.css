@@ -332,7 +332,10 @@ body{
 .page-header{
   font-family: 'Playfair',serif;
   font-size: 50px;
+  animation: bounceInUp 1s ease-in-out; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
 }
+
 .sermon-topic{
   color: black;
   font-family: 'Work Sans', sans-serif;
@@ -398,6 +401,7 @@ input[type="text"]{
 label{
   color:#ff5e14;
   text-transform: uppercase;
+ 
 }
 .textarea{
   width: 100%;
