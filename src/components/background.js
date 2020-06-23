@@ -57,7 +57,7 @@ class Background extends React.Component {
                                 <br />
                             </div>
 
-                            <div className="wow flipInY" data-wow-duration="2s" data-wow-iteration="infinite">Eglise Du Royaume Du Christ</div>
+                            <div className="wow flipInY" data-wow-duration="5s" data-wow-iteration="2" style={{color:'#222222', fontSize:'20px'}}>Eglise Du Royaume Du Christ</div>
                     
                             <div className="content">
                                 <div className="slider-wrapper">
@@ -69,8 +69,6 @@ class Background extends React.Component {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="WOW slideInLeft">Hello </div>
                             
                         </div>
                     </div>                         
