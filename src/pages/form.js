@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 import axios from 'axios';
-export class Form1 extends Component {
+export class Form extends Component {
     state={
         name:'',
         lastname:'',
@@ -46,7 +46,7 @@ formSubmit = (e) =>{
         message: this.state.message
     }
 
-    axios.post('./api/forma', data)
+    axios.post('/api/forma', data)
     .then(res=>{
         this.setState({
             sent:true,
@@ -76,7 +76,8 @@ resetForm = () =>{
     render() {
         return (
             <div className="container">
-                <form onSubmit={this.formSubmit}>
+                
+                {/* <form onSubmit={this.formSubmit}>
                     <div className="singleItem">
                         <label htmlFor="name">name</label>
                         <input type="text" name="name"
@@ -108,10 +109,37 @@ resetForm = () =>{
                     <div className="btn">
                         <button type="submit" className="button-primary button-primary1">Submit</button>
                     </div>
-                </form>
+                </form> */}
+
+         
+                <div className="kwes-form">
+                    <form method="POST" action="https://kwes.io/api/foreign/forms/zkMyIjgoGudDbQ7QkRSf">
+                        <div className="singleItem">
+                            <label htmlFor="name">name</label>
+                            <input type="text" rules="required|max:255" name="name"placeholder=" name"  className="inputfield"/>
+                         
+                    
+                        </div>
+
+                        <div className="singleItem">
+                            <label htmlFor="email">email</label>
+                            <input type="email" rules="required|max:255" placeholder=" email"  name="email"className="inputfield" />
+                        </div>
+
+                        <div className="singleItem">
+                            <label htmlFor="message" className="label">Message</label>
+                            <textarea name="message" id="" cols="30" rows="5" placeholder="message" className="textarea"rules="required|max:255"
+                            name="message" className="textarea"
+                        ></textarea>
+                        </div>
+                        
+                        <button type="submit" className="button-primary button-primary1" style={{paddingTop:'20px'}}>Submit</button>
+                    </form>
+                </div>
+                <script src="https://kwes.io/js/kwes.js"></script>
             </div>
         )
     }
 }
 
-export default Form1
+export default Form

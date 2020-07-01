@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './navigation.css';
 import {Link} from 'react-router-dom';
 import {FaAlignRight} from 'react-icons/fa';
+// import {logo} from '../logo/logo.jpg';
 
 export class Navigation extends Component {
 
@@ -9,7 +10,7 @@ export class Navigation extends Component {
         super(props)
     
         this.state = {
-             isOpen: false,
+             isOpen: true,
              isShow: false
         }
     }
@@ -29,7 +30,7 @@ export class Navigation extends Component {
             <div className="navigation">
                 <header>
                     <div className="container">
-                        <div className="nav-logo"><img src="" alt="not seen" className="logo"/></div> 
+                        <div className="nav-logo"><img src="https://res.cloudinary.com/aitechma/image/upload/v1593546686/churchweb/logo11_o3eos5.jpg" alt="not seen" className="logo"/></div> 
 
                         <div className="nav-icon-logo">
                             <button type="button" className="nav-btn" onClick={this.handleToggle}>

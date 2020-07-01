@@ -28,7 +28,8 @@ export class Testimony extends Component {
                                 <div className=" top-content overlay-bg" >
                                     <div className="sec-title">Featured <br />Stories</div>
                                 </div>
-                            </div>                           
+                            </div>  
+                            <div className  ="col-lg-3"></div>                       
                         </div>
                         <section className="testimony-slide">
                             <div className="container">

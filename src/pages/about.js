@@ -23,7 +23,7 @@ class About extends Component {
                                 <p>We, the <span className="">Kindom of christ church</span> under the divine leadership of our Lord and Saviour, Jesus Christ and direction
                                 of the Holy Spirit being fully determineed to reach the unreached with the gospel of our Lord Jesus Christ, and to practically live out his Holy life in accordance with the holyscripture do 
                                 hereby by our representatives seated in his assemblygive to ourselves the instruction.</p>
-                                <p>The General Overseer,in person of Prophet Emmanuel Godfrey is a man of God. God has called him and put the vision of the church in his hands</p>
+                                <p>The General Overseer,in person of Prophet Immanuel Godfrey is a man of God. God has called him and put the vision of the church in his hands</p>
                             </div>
                         </div>
 

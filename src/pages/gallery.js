@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Pastorgallery extends Component {
     render() {
         return (
-            <div className="">
+            <div className="" id="pastorgallery1">
                 <div className="pastorgallery">
                     <div className=" container bannertext"> Our Pastors</div>
                 </div>

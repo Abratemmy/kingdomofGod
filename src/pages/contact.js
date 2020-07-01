@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BsFillEnvelopeFill} from "react-icons/bs";
+import {Link} from 'react-router-dom';
 // import axios from 'axios'
 import {FaRegAddressCard, FaPhone  } from 'react-icons/fa';
-import Form1 from './form';  
+import Form from './form.js';  
 import {
     InfoWindow,
     withScriptjs,
@@ -15,14 +16,14 @@ import {
   Geocode.setApiKey("AIzaSyBO2p88YOi9n5jx5iqDr8s4hxCQW2lSnUc")
 
 
-export class Contact extends Component {
+class Contact extends React.Component {
     state={
         address:'',
         city:"",
         area:"",
         state:"",
-        zoom:15,
-        height: 600,
+        zoom:1,
+        height: 900,
         mapPosition: {
             lat: 0,
             lng: 0,
@@ -49,7 +50,7 @@ export class Contact extends Component {
                     Geocode.fromLatLng(position.coords.latitude, position.coords.longitude)
                     .then(response => {
                         console.log('response', response)
-                        const address = response.results(0).formatted_address,
+                        const address = response.results[0].formatted_address,
                             addressArray = response.results[0].address_components,
                             city = this.getCity(addressArray),
                             area = this.getArea(addressArray),
@@ -110,7 +111,7 @@ export class Contact extends Component {
         Geocode.fromLatLng(newLat, newLng)
         .then(response => {
             
-            const address = response.results(0).formatted_address,
+            const address = response.results[0].formatted_address,
                 addressArray = response.results[0].address_components,
                 city = this.getCity(addressArray),
                 area = this.getArea(addressArray),
@@ -145,7 +146,7 @@ export class Contact extends Component {
               onDragEnd = {this.onMarkerDragEnd}
                 position={{ lat: this.state.markerPosition.lat, lng: this.state.markerPosition.lng }}>
                   <InfoWindow>
-                      <div>Welcome to church location</div>
+                      <div>Drag to church location</div>
                   </InfoWindow>
               </Marker>
             </GoogleMap>
@@ -164,13 +165,13 @@ export class Contact extends Component {
                         <div className="contact-title">Contact information</div>
                         <div className="row">
                             <div className="col-lg-4 col-md-8 col-sm-12 contact-column" >
-                                <div className="contact-text">Address : <span className="contact-span">AJ - 325, SEC - 2, SALTLAKE, KOLKATA - 700091</span></div>
+                                <div className="contact-text">Address : <span className="contact-span">Eldorado beach donaten PLM 06 kpakpa Cotonou, Benin.</span></div>
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12 contact-column">
-                                <div className="contact-text">Phone : <span className="contact-span">0202 00 2365</span></div>
+                                <div className="contact-text">Phone : <span className="contact-span">+22997253027 / +2348033271649 / +22998724846/7</span></div>
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12 contact-column">
-                                <div className="contact-text">Email : <span className="contact-span">info@church.com</span></div>
+                                <div className="contact-text">Email : <span className="contact-span">kingdomofchristchurch. org</span></div>
                             </div>
                         </div>
                         <div className="row">
@@ -185,50 +186,13 @@ export class Contact extends Component {
                                         containerElement={<div style={{ height: `400px` }} />}
                                         mapElement={<div style={{ height: `100%` }} />}
                                     />
-                                    {/* <div className="row">
-                                        <div className="col-lg-6 col-md-12 col-sm-12 column">
-                                            <div className="left-column contactaddress centred">
-                                                <div className="icon-box"><FaRegAddressCard className="contact-icons"/></div>
-                                                <h5>Address</h5>
-                                                <div className="text">AJ - 325, SEC - 2, SALTLAKE, KOLKATA - 700091</div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12 column">
-                                            <div className="right-column contactaddress">
-                                                <div className="icon-box"><BsFillEnvelopeFill className="contact-icons"/></div>
-                                                <h5>Email</h5>
-                                                <div className="text">info@church.com</div>
-                                            </div>
-                                            <div className="right-column contactaddress">
-                                                <div className="icon-box"><FaPhone className="contact-icons"/></div>
-                                                <h5>Phone No</h5>
-                                                <div className="text">0202 00 2365</div>
-                                            </div>
-                                        </div>
-                                    </div> */}
+                                    
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 contact-column">
                                 <div className="contact-form-area">
                                     <div className="contact-title">Send Us A Message</div>
-                                    {/* <Form id="contact-form" name="contact_form" class="default-form" onSubmit={this.handleSubmit}>                                       
-                                        <FormGroup>
-                                            <Label for="name">Name </Label>
-                                            <Input type="text" name="name" value="" required="" className="inputfield" onChange={this.handleChange}/>                                           
-                                        </FormGroup>
-
-                                        <FormGroup>
-                                            <Label for="email">Email </Label>
-                                            <Input type="email" name="email" value="" required="" className="inputfield" onChange={this.handleChange}/>                                           
-                                        </FormGroup>
-
-                                        <FormGroup>
-                                            <Label for="message">Message *</Label>
-                                            <Input type="textarea" name="message" value="" required="" className="inputfield" onChange={this.handleChange}/>                                           
-                                        </FormGroup>  
-                                        <Button>Submit</Button>     
-                                    </Form> */}
-                                    <Form1 />
+                                    <Form />
                                 </div>
                             </div>
                         </div>
@@ -240,4 +204,4 @@ export class Contact extends Component {
     }
 }
 
-export default Contact
+export default Contact;

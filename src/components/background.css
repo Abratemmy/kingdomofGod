@@ -33,7 +33,7 @@
 .slider div{
     height: 50px;
     margin-bottom: 50px;
-    padding: 2px 15px;
+    padding: 5px ;
 }
 .slidertext1{
     animation: slide 8s linear infinite;

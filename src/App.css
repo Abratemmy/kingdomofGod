@@ -1,7 +1,11 @@
 body{
   margin:0;
   padding:0;
-  
+}
+.footer-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 .footer-social li {
   position: relative;
@@ -40,6 +44,24 @@ body{
 }
 .footer-row{
   padding-top: 30px;
+}
+.footer-background{
+  width:100%;
+  margin: 0px auto;
+  background:linear-gradient(180deg, rgba(27, 27, 27, 0.443), rgba(31, 30, 30, 0.443)),   url('https://cdn.pixabay.com/photo/2011/12/13/14/28/earth-11008__340.jpg');
+  background-position: 120% 0px;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  animation: bg-animation linear 50s infinite;
+}
+@keyframes bg-animation{
+  from{
+    background-position: 120% 0px;
+
+  }
+  to{
+    background-position: 20% 0px;
+  }
 }
 .footer-widget{
   font-family: 'Work Sans', sans-serif;
@@ -103,6 +125,9 @@ body{
   color: rgb(97, 93, 93);
 }
 /* css class for testimony */
+.testimonial-content{
+  padding-top: 30px;
+}
 .testimonial-column{
   background:linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)),  url('https://cdn.pixabay.com/photo/2016/01/19/17/21/boys-1149665__340.jpg');
   background-size: cover;
@@ -131,8 +156,11 @@ body{
   margin-bottom: 12px;
 }
 .testimony-slide{
-  top:-130px;
+  /* bottom:60px; */
+  top:-100px;
   left: 700px;
+  /* top: 300%; */
+  /* right: 100px; */
   position: relative;
   background:white;
   padding-bottom: 40px;
@@ -171,24 +199,7 @@ body{
   color:#ff5e14;
   font-family: 'Work Sans', sans-serif;
 }
-.banner-bg{
-  width:100%;height: 400px;
-  margin: 0px auto;
-  background:linear-gradient(180deg, rgba(27, 27, 27, 0.443), rgba(31, 30, 30, 0.443)),   url('https://cdn.pixabay.com/photo/2011/12/13/14/28/earth-11008__340.jpg');
-  background-position: 120% 0px;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  animation: bg-animation linear 50s infinite;
-}
-@keyframes bg-animation{
-  from{
-    background-position: 120% 0px;
 
-  }
-  to{
-    background-position: 20% 0px;
-  }
-}
 /* css for pastors gallery */
 .pastorgallery{
   background: url('https://colorlib.com/preview/theme/spring/images/bg_2.jpg');
@@ -413,6 +424,59 @@ label{
 }
 .msgAppear{
   display: block;
+}
+
+
+
+@media screen and (max-width: 1200px){
+  .testimony-slide{
+    left: 600px;
+    /* right: 200px; */
+    overflow:hidden;
+  }
+  /* body{
+    display: none;
+  } */
+}
+@media screen and (max-width:1100px){
+  .testimony-slide{
+    left:500px;
+   
+    /* width: 100%; */
+    overflow: hidden;
+  }
+ 
+}
+@media screen and (max-width: 1000px){
+  .testimony-slide{
+    left: 500px;
+    /* right: 200px; */
+  }
+  /* body{
+    display: none;
+  } */
+
+  /*  */
+}
+@media screen and (max-width:900px){
+  .testimony-slide{
+    left:0px;
+    right: 90px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:760px){
+  .testimony-slide{
+    /* left:0px;
+    right: 0px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute; */
+
+    display: none;
+  }
+ 
 }
 /* .cours2{
 	margin-top:30px;

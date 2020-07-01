@@ -12,7 +12,7 @@ import Testimony from '../components/testimony';
 export class Home extends Component {
     render() {
         return (
-            <div className="" id="homepage">
+            <div className="homepage" id="homepage">
                 <Background/>
                 <div className="churchmission">
                     <div className="container">

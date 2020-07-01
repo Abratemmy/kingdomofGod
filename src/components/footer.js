@@ -6,11 +6,11 @@ export class Footer extends Component {
     render() {
         return (
             <div className="" style={{backgroundColor:'rgb(27, 27, 27)'}}>
-                <div className="container banner-bg">
+                <div className="container footer-background">
                     <div className=" row footer-row">
-                        <div className="col-lg-3 col-md-3 col-sm-12 footer-column">
+                        <div className="col-lg-4 col-md-12 col-sm-12 footer-column">
                             <div className="logo-widget footer-widget">
-                                <figure className="logo-box"><a href="https://tckzone.com"><img src="images/footer-logo.png" alt="LOGO HERE"style={{color:'#ff5e14'}} /></a></figure>
+                                <figure className="logo-box"><a href="/"><img src="https://res.cloudinary.com/aitechma/image/upload/v1593546686/churchweb/logo11_o3eos5.jpg" alt="not seen" className="footer-logo" style={{color:'#ff5e14'}} /></a></figure>
                                 <div className="text">
                                     <p>Preaching God's word through the Bible</p>
                                     <p> Our goal is to do nothing against the truth, but for the truth. We stand on the rock that never fails.</p>
@@ -24,7 +24,7 @@ export class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-3 col-sm-12 offset-lg-2 footer-column">
+                        <div className="col-lg-3 col-md-12 col-sm-12 offset-sm-1 footer-column">
                             <div className="service-widget footer-widget">
                                 <div className="footer-title">Topics</div>
                                 <ul className="list">
@@ -36,13 +36,13 @@ export class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-3 col-sm-12 footer-widget">
+                        <div className="col-lg-4 col-md-12 col-sm-12 footer-widget">
                             <div className="contact-widget footer-widget">
                                 <div className="footer-title">Contacts</div>
                                 <div className="text">
-                                    <p>AJ - 325, SEC - 2, SALTLAKE, KOLKATA - 700091</p>
-                                    <p>0202 00 2365</p>
-                                    <p>info@church.com</p>
+                                    <p> Eldorado beach donaten PLM 06 PB 167 Akpakpa Cotonou, Benin.</p>
+                                    <p>+22997253027 / +2348033271649</p>
+                                    <p>kingdomofchristchurch. org</p>
                                 </div>
                             </div>
                         </div>
