@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "360d607111f5a57bf843e5c4c48db966",
+    "revision": "edbf43b0884b6ad78a668a36a0ff5b70",
     "url": "/kingdomofGod/index.html"
   },
   {
-    "revision": "173287a6f42cad2289e7",
+    "revision": "b1b85a2290523ac1e9f1",
     "url": "/kingdomofGod/static/css/2.c1e1db11.chunk.css"
   },
   {
-    "revision": "afbfb5647dc849ebe298",
-    "url": "/kingdomofGod/static/css/main.5ea5ed10.chunk.css"
+    "revision": "5444ebb73291c58ce8e6",
+    "url": "/kingdomofGod/static/css/main.aac893cd.chunk.css"
   },
   {
     "revision": "4674b1fcaf571d016574",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kingdomofGod/static/js/14.2a1e94f7.chunk.js"
   },
   {
-    "revision": "173287a6f42cad2289e7",
-    "url": "/kingdomofGod/static/js/2.f22ee6c4.chunk.js"
+    "revision": "b1b85a2290523ac1e9f1",
+    "url": "/kingdomofGod/static/js/2.cc86477d.chunk.js"
   },
   {
     "revision": "876e403427d7be82fb4e8ac24123aaf3",
-    "url": "/kingdomofGod/static/js/2.f22ee6c4.chunk.js.LICENSE.txt"
+    "url": "/kingdomofGod/static/js/2.cc86477d.chunk.js.LICENSE.txt"
   },
   {
     "revision": "50503697a43e8e0c5fa9",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kingdomofGod/static/js/9.08b9d6e0.chunk.js"
   },
   {
-    "revision": "afbfb5647dc849ebe298",
-    "url": "/kingdomofGod/static/js/main.f79e1332.chunk.js"
+    "revision": "5444ebb73291c58ce8e6",
+    "url": "/kingdomofGod/static/js/main.9ed03ecb.chunk.js"
   },
   {
     "revision": "7706f693d962627b1656",
