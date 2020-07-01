@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './navigation.css';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import {FaAlignRight} from 'react-icons/fa';
 // import {logo} from '../logo/logo.jpg';
 
@@ -39,17 +39,13 @@ export class Navigation extends Component {
                         </div>
                         <nav>
                             <ul className={this.state.isOpen ? "nav-links show-nav": "nav-links"}>
-                                <li><Link to="/" className="active">Home</Link> </li>
+                                <li><NavLink to="/" activeClassName="selected" activeStyle={{color:'#ff5e14'}}>Home</NavLink> </li>
                                 <li className="nav-item dropdown">
-                                    <Link to ="/about"  id="navbarDropdown" data-toggle="dropdown">About us</Link>
-                                    {/* <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link to="" className="dropdown-item">Who we are</Link>
-                                        <Link to="" className="dropdown-item">Who we if</Link>
-                                    </div> */}
+                                    <NavLink to ="/about" id="navbarDropdown" data-toggle="dropdown">About us</NavLink>
                                  </li>
-                                <li><Link to ="/pastorgallery">Pastorate</Link> </li>
-                                <li><Link to ="/audio">Audio Sermon</Link> </li>
-                                <li><Link to ="/contact">Contact</Link> </li>
+                                <li><NavLink to ="/pastorgallery" >Pastorate</NavLink> </li>
+                                <li><NavLink to ="/audio">Audio Sermon</NavLink> </li>
+                                <li><NavLink to ="/contact" >Contact</NavLink> </li>
                             </ul>
                         </nav>
                     </div>

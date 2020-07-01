@@ -33,8 +33,8 @@ export class Testimony extends Component {
                         </div>
                         <section className="testimony-slide">
                             <div className="container">
-                                <Slider {...testimonyslides} className="container slidecontainer">
-                                    <div className="sliding-testimony container">
+                                <Slider {...testimonyslides} className=" slidecontainer">
+                                    <div className="sliding-testimony">
                                         <div className="text"> I want appreciate what God did in my life and my family. I was deliver from the power of darkness.Praise God
                                         </div>
 

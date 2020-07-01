@@ -14,6 +14,10 @@
         letter-spacing: 1px;
     }
 }
+.eglise{
+    font-family: 'Pinyon Script', cursive;
+    font-weight: bold;
+}
 
 .slides{
     background: -webkit-linear-gradient(to right, #141413, #0f0d0f, #20181e);
@@ -24,10 +28,11 @@
     font-weight: bold;
     display: flex;
     color:#222122;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Pinyon Script', cursive; */
 } 
 .slider{
-    height: 50px;
+    height: 55px;
     overflow:hidden;
 }
 .slider div{

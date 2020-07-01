@@ -41,8 +41,8 @@ export class Footer extends Component {
                                 <div className="footer-title">Contacts</div>
                                 <div className="text">
                                     <p> Eldorado beach donaten PLM 06 PB 167 Akpakpa Cotonou, Benin.</p>
-                                    <p>+22997253027 / +2348033271649</p>
-                                    <p>kingdomofchristchurch. org</p>
+                                    <p>+22997253027, +2348033271649</p>
+                                    <p>info@kingdomofchristchurch. org</p>
                                 </div>
                             </div>
                         </div>

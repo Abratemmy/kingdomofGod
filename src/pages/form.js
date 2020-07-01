@@ -133,7 +133,7 @@ resetForm = () =>{
                         ></textarea>
                         </div>
                         
-                        <button type="submit" className="button-primary button-primary1" style={{paddingTop:'20px'}}>Submit</button>
+                        <button type="submit" className="button-primary button-primary1" style={{marginTop:'20px'}}>Submit</button>
                     </form>
                 </div>
                 <script src="https://kwes.io/js/kwes.js"></script>

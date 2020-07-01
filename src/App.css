@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   margin:0;
   padding:0;
@@ -273,6 +279,7 @@ body{
   color: #ff5e14;
   font-family:'Work Sans', sans-serif;
   padding-bottom: 30px;
+  line-height: 35px;
 }
 .contact-section .contact-span{
   color: #757575;

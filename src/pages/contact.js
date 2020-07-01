@@ -171,7 +171,7 @@ class Contact extends React.Component {
                                 <div className="contact-text">Phone : <span className="contact-span">+22997253027 / +2348033271649 / +22998724846/7</span></div>
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12 contact-column">
-                                <div className="contact-text">Email : <span className="contact-span">kingdomofchristchurch. org</span></div>
+                                <div className="contact-text">Email : <span className="contact-span">info@kingdomofchristchurch. org</span></div>
                             </div>
                         </div>
                         <div className="row">
@@ -191,7 +191,7 @@ class Contact extends React.Component {
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 contact-column">
                                 <div className="contact-form-area">
-                                    <div className="contact-title">Send Us A Message</div>
+                                    <div className="contact-title" style={{paddingLeft:'30px'}}>Send Us A Message</div>
                                     <Form />
                                 </div>
                             </div>

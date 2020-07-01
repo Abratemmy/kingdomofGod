@@ -5,7 +5,7 @@ export class Donation extends Component {
     render() {
         return (
             <div>
-                <div className="pastorgallery donation-section" >
+                <div className="pastorgallery donation donation-section" >
                     <div className="container bannertext"> Your donation is others inspiration</div>
                 </div>
 

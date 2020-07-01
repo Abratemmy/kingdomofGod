@@ -42,7 +42,7 @@ export class Blog extends Component {
 
                             <div>
                                 <div className="card blogcard no-border"style={{maxWidth: '20rem'}} >
-                                    <img src="https://image.shutterstock.com/image-photo/happy-family-two-daughters-playing-260nw-634089968.jpg" className="blogcard-img-top" alt="not found"width="100%" height="300" />
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1593590552/churchweb/family_qr4z7n.png" className="blogcard-img-top" alt="not found"width="100%" height="300" />
                                     <div className="card-body">
                                         <h5 className="card-title blogcardtitle">Family</h5>
                                         <p className="card-text">It is not good for a man to be alone.|A man shall leave his father and mother and cling to his wife </p>
@@ -62,7 +62,7 @@ export class Blog extends Component {
 
                             <div>
                                 <div className="card blogcard no-border"style={{maxWidth: '20rem'}} >
-                                    <img src="https://image.shutterstock.com/image-photo/sanctification-easter-bread-wine-260nw-1705528825.jpg" className="blogcard-img-top" alt="not found"width="100%" height="300" />
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1593590552/churchweb/sanctification_jyqmvi.png" className="blogcard-img-top" alt="not found"width="100%" height="300" />
                                     <div className="card-body">
                                         <h5 className="card-title blogcardtitle">Sanctification</h5>
                                         <p className="card-text">It is not good for a man to be alone.|A man shall leave his father and mother and cling to his wife </p>

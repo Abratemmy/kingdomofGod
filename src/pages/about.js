@@ -46,7 +46,7 @@ class About extends Component {
                         </div>
 
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="page-header wow flipInY"data-wow-duration="10s" data-wow-iteration="infinite" >Aims and<span className="homeheader-span"> Objectives</span> </div>
+                            <div className="page-header wow flipInY"data-wow-duration="5s" data-wow-iteration="1" >Aims and<span className="homeheader-span"> Objectives</span> </div>
                            <p>To spread the gospel of Jesus Christ</p>
                            <p>To promote love and unity among the members</p>
                            <p>To arrang and conduct lectures and seminars from time to time</p>
