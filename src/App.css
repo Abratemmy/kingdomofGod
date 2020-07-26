@@ -235,7 +235,7 @@ body{
 }
 .gallery-portfolio{
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 .gallery-portfolio img {
   /* width: 100%; */
@@ -340,6 +340,16 @@ body{
   background-position: center center;
   width:100%;
 }
+.history p{
+  text-align: justify;
+  line-height: 30px;
+}
+.history .historyp::first-letter{
+  font-size: 65px;
+  line-height: 60px;
+  float: left;
+  font-weight: normal;
+}
 .donation-section{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)),url('https://colorlib.com/etc/charity/img/header-bg.jpg');
   background-size: cover;
@@ -351,7 +361,7 @@ body{
   font-family: 'Playfair',serif;
   font-size: 50px;
   animation: bounceInUp 1s ease-in-out; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 5s; /* don't forget to set a duration! */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .sermon-topic{
@@ -401,6 +411,11 @@ body{
 .donation-section1 .account-title .account-details{
   color: #222222;
   padding-left: 10px;
+}
+.donation-text{
+  position: absolute;
+  top: 40%;
+  /* left: 40%; */
 }
 input[type="text"]{
   width: 100%;

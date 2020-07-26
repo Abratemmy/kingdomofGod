@@ -112,8 +112,8 @@ resetForm = () =>{
                 </form> */}
 
          
-                <div className="kwes-form">
-                    <form method="POST" action="https://kwes.io/api/foreign/forms/zkMyIjgoGudDbQ7QkRSf">
+                <div className="kwes-form"target="_blank">
+                    <form method="POST" action="https://kwes.io/api/foreign/forms/zkMyIjgoGudDbQ7QkRSf" target="_blank">
                         <div className="singleItem">
                             <label htmlFor="name">name</label>
                             <input type="text" rules="required|max:255" name="name"placeholder=" name"  className="inputfield"/>
@@ -129,7 +129,6 @@ resetForm = () =>{
                         <div className="singleItem">
                             <label htmlFor="message" className="label">Message</label>
                             <textarea name="message" id="" cols="30" rows="5" placeholder="message" className="textarea"rules="required|max:255"
-                            name="message" className="textarea"
                         ></textarea>
                         </div>
                         

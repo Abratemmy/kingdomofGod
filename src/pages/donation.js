@@ -13,7 +13,7 @@ export class Donation extends Component {
                     <div className="homeheader homeheader1" style={{fontSize:'40px'}}>To make <span className="homeheader-span" > donations</span></div>
 
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="">
                                 <p style={{fontWeight:'bold', fontSize:'22px'}}>Nigeria Bank details</p>
                                 <p>
@@ -35,9 +35,9 @@ export class Donation extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-6">
-                            <img src={donation} alt="error" width="100%"/>
-                            <p className="" style={{position: 'absolute', bottom:'30%', padding:'20% 0% 0px 50px'}}>Let's work together to build the gospel</p>
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <img src={donation} alt="error" width="100%" height="500px"/>
+                            {/* <p className="donation-text">Let's work together to build the gospel</p> */}
                         </div>
                     </div>
                 </div>

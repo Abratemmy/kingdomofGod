@@ -1,8 +1,5 @@
 import React from 'react';
-import { BsFillEnvelopeFill} from "react-icons/bs";
-import {Link} from 'react-router-dom';
 // import axios from 'axios'
-import {FaRegAddressCard, FaPhone  } from 'react-icons/fa';
 import Form from './form.js';  
 import {
     InfoWindow,
@@ -138,7 +135,7 @@ class Contact extends React.Component {
     render() {
         const MapWithAMarker = withScriptjs(withGoogleMap(props =>
             <GoogleMap
-              defaultZoom={8}
+              defaultZoom={15}
               defaultCenter={{ lat: this.state.mapPosition.lat, lng: this.state.mapPosition.lng }}
             >
               <Marker

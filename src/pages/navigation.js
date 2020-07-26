@@ -39,13 +39,14 @@ export class Navigation extends Component {
                         </div>
                         <nav>
                             <ul className={this.state.isOpen ? "nav-links show-nav": "nav-links"}>
-                                <li><NavLink to="/" activeClassName="selected" activeStyle={{color:'#ff5e14'}}>Home</NavLink> </li>
+                                <li><NavLink to="/"  exact activeStyle={{color:'#ff5e14'}}>Home</NavLink> </li>
                                 <li className="nav-item dropdown">
-                                    <NavLink to ="/about" id="navbarDropdown" data-toggle="dropdown">About us</NavLink>
+                                    <NavLink to ="/about"  exact activeStyle={{color:'#ff5e14'}} >About us</NavLink>
                                  </li>
-                                <li><NavLink to ="/pastorgallery" >Pastorate</NavLink> </li>
-                                <li><NavLink to ="/audio">Audio Sermon</NavLink> </li>
-                                <li><NavLink to ="/contact" >Contact</NavLink> </li>
+                                <li><NavLink to ="/pastorgallery" exact activeStyle={{color:'#ff5e14'}}>Pastorate</NavLink> </li>
+                                <li><NavLink to ="/audio" exact activeStyle={{color:'#ff5e14'}}>Audio Sermon</NavLink> </li>
+                                <li><NavLink to ="/contact" exact activeStyle={{color:'#ff5e14'}}>Contact</NavLink> </li>
+                                <li><NavLink to ="/contact" exact style={{display:'none'}} className="noshow">Contact</NavLink> </li>
                             </ul>
                         </nav>
                     </div>
